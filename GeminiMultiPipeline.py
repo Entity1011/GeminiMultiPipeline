@@ -25,6 +25,7 @@ class Pipeline:
         """Options to change from the WebUI"""
 
         GOOGLE_API_KEY: str = ""
+        GOOGLE_API_KEY_ARRAY : str[] = []
         USE_PERMISSIVE_SAFETY: bool = Field(default=False)
 
     def __init__(self):
